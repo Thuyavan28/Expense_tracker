@@ -2,18 +2,42 @@
 
 A premium, production-ready personal finance and expense management application built with Flutter and Dart.
 
+---
+
+## 📱 Direct Download (Release APK)
+
+Download and install the latest release directly on your Android device:
+
+[![Download APK](https://img.shields.io/badge/Download_APK-PinkLedger_v1.0.0-10B981?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Thuyavan28/Expense_tracker/raw/main/releases/PinkLedger-release.apk)
+[![Platform](https://img.shields.io/badge/Platform-Android_7.0+-000000?style=for-the-badge&logo=android)](https://github.com/Thuyavan28/Expense_tracker/raw/main/releases/PinkLedger-release.apk)
+[![Status](https://img.shields.io/badge/Build-Passing-10B981?style=for-the-badge)](https://github.com/Thuyavan28/Expense_tracker)
+
+| Package | Direct Download Link | Size | Architecture | Sideload Ready |
+|---|---|---|---|---|
+| **PinkLedger v1.0.0 (Release)** | [📥 **Download PinkLedger-release.apk**](https://github.com/Thuyavan28/Expense_tracker/raw/main/releases/PinkLedger-release.apk) | ~51.6 MB | universal (arm64-v8a, armeabi-v7a, x86_64) | ✅ Yes (Signed) |
+| **Direct Raw Mirror** | [📥 **Raw GitHub Link**](https://raw.githubusercontent.com/Thuyavan28/Expense_tracker/main/releases/PinkLedger-release.apk) | ~51.6 MB | universal | ✅ Yes |
+
+### 📲 Quick Installation Guide:
+1. Tap the **[Download PinkLedger-release.apk](https://github.com/Thuyavan28/Expense_tracker/raw/main/releases/PinkLedger-release.apk)** link above from your Android phone browser.
+2. Once downloaded, open your **Downloads** notification or file manager and tap `PinkLedger-release.apk`.
+3. If prompted with *"For your security, your phone is not allowed to install unknown apps from this source"*, tap **Settings** and toggle **"Allow from this source"**.
+4. Tap **Install** and launch **PinkLedger**!
+
+---
+
 ## Overview
 
-PINKLEDGER is a comprehensive financial management application that helps users take control of their money. It enables tracking of income, expenses, budgets, savings, recurring payments, financial goals, and spending analytics — all with a beautiful, premium user interface.
+PINKLEDGER is a comprehensive financial management application that helps users take control of their money. It enables tracking of income, expenses, budgets, savings, recurring payments, financial goals, and spending analytics — all with a modern, high-contrast light interface.
 
-## Brand Identity
+## Brand Identity & Design System
 
 - **App Name:** PINKLEDGER
 - **Tagline:** Every Rupee, Under Control.
-- **Primary Pink:** #FF4696
-- **Deep Purple:** #1E1033
-- **Success / Completed:** #D1FF42 (Lime)
-- **Failed / Error:** #E20E17 (Red)
+- **Theme:** High-Contrast Modern Light Theme
+- **Primary Accent:** `#10B981` (Lite Green / Emerald)
+- **Background:** `#FFFFFF` (Pure White)
+- **Text & Solid Borders:** `#000000` (Crisp Solid Black)
+- **Card Background:** `#F8FAF9` / `#FFFFFF` with bold `2px` black borders
 
 ## Features
 
@@ -137,8 +161,8 @@ lib/
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd pinkledger
+git clone https://github.com/Thuyavan28/Expense_tracker.git
+cd Expense_tracker
 
 # Get dependencies
 flutter pub get
